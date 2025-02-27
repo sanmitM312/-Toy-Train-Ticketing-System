@@ -1,0 +1,11 @@
+[
+  {
+    "hashed_password": "$2a$10$iaIljodVcxJ.pQYlbiaUR.3D9l.mbayoTEE0uV3Sf52sA2FjCzLaq",
+    "name": "Sanmit",
+    "password": "helloworld",
+    "tickets_booked": [],
+    "user_id": "2520e90a-3509-4280-b1d1-8303d0ed39a6"
+  },
+  {"password":"12345","hashed_password":"$2a$10$LITYLRaK9Ts4/zxvZLl5sOfpWoaEbBvr.7pZVvEMx0C8BB1ywmFv.","tickets_booked":[],"user_id":"ea675e46-04ac-441b-b9f5-7a97e4bcf046","name":"Riri"},
+  {"password":"password","hashed_password":"$2a$10$W1HkRpffWOPoJALy53VhT.i/xCWJ1ulg71cHlKy46WDMOFBkWDWh.","tickets_booked":[],"user_id":"98a9161b-619f-430a-b47f-adbce17f016d","name":"Sanmit"}
+, {"password":"password","hashed_password":"$2a$10$9jBl01qXqZ0pcShCa/eWXOBkow.7ad6uZmk/FgRe8Ciap55wDn3EC","tickets_booked":[],"user_id":"82471a4b-10b3-457c-8d92-905fd839154c","name":"Rina"},{"password":"password","hashed_password":"$2a$10$FSpqsGgR6713sMxXF1Kure8VEBirXzBnzpat32v7OAxcZKAgKUWOa","tickets_booked":[],"user_id":"47111e51-1dcb-437a-a2e0-0e3ffcd2820c","name":"Sanmit"}]
