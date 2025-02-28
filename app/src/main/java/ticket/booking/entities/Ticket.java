@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -13,11 +14,11 @@ public class Ticket {
     private String userId;
     private String source;
     private String destination;
-    private Date dateOfTravel;
+    private LocalDate dateOfTravel;
     private Train train;
 
     public Ticket(){}
-    public Ticket(String ticketId, String userId, String source, String destination, Date dateOfTravel, Train train) {
+    public Ticket(String ticketId, String userId, String source, String destination, LocalDate dateOfTravel, Train train) {
         this.ticketId = ticketId;
         this.userId = userId;
         this.source = source;
@@ -58,11 +59,11 @@ public class Ticket {
         this.destination = destination;
     }
 
-    public Date getDateOfTravel() {
+    public LocalDate getDateOfTravel() {
         return dateOfTravel;
     }
 
-    public void setDateOfTravel(Date dateOfTravel) {
+    public void setDateOfTravel(LocalDate dateOfTravel) {
         this.dateOfTravel = dateOfTravel;
     }
 

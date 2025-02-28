@@ -70,10 +70,11 @@ public class User {
         this.userId = userId;
     }
 
-    public void printTickets(){
+    public boolean printTickets(){
         for(int i=0; i < ticketsBooked.size(); i++){
             System.out.println(ticketsBooked.get(i).getTicketInfo());
         }
+        return false;
     }
 
 }
